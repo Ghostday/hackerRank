@@ -17,7 +17,7 @@ function plusMinus(arr: number[]) {
     }
   }
 
-  const getRatio = (num) => (num / numOfEle).toFixed(6)
+  const getRatio = (num: number) => (num / numOfEle).toFixed(6)
   console.log(getRatio(positives), getRatio(negatives), getRatio(neutrals))
 
 }
